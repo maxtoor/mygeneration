@@ -1,0 +1,38 @@
+input,textarea{background-color:expression(this.type=='checkbox'||this.type=='radio'?'transparent':'#ffffff');border-color:expression(this.type=='checkbox'||this.type=='radio'?'':'#666666');border-style:expression(this.type=='checkbox'||this.type=='radio'||this.id=='quicksearchbox'?'none':'solid');border-width:expression(this.type=='checkbox'||this.type=='radio'?'0':'1px')}
+#login-form form{margin-top:0}
+#message{filter:alpha(opacity=85)}
+.popupmenu{background-color:#fff}
+#messagetoolbar{width:expression((parseInt(document.documentElement.clientWidth)-215)+px);z-index:240}
+#messagetoolbar select.mboxlist{top:8px;margin:0 8px}
+#abooktoolbar a.buttonPas{filter:alpha(opacity=35);background-image:url(images/abook_toolbar.gif)}
+#messagetoolbar a.buttonPas{filter:alpha(opacity=35);background-image:url(images/mail_toolbar.gif)}
+#quicksearchbar{z-index:250}
+#contacts-box,#prefs-box,#folder-box{height:expression(parseInt(this.parentNode.offsetHeight)+px)}
+#mailcontframe,{width:99%}
+#mailrightcontainer{width:expression((parseInt(this.parentNode.offsetWidth)-170)+px)}
+#messagepartcontainer{width:expression((parseInt(document.documentElement.clientWidth)-40)+px);height:expression((parseInt(document.documentElement.clientHeight)-90)+px)}
+#mailrightcontent{width:100%}
+#partheader{width:expression((parseInt(document.documentElement.clientWidth)-240)+px)}
+#subscription-table{width:auto}
+#messagelist{width:auto;border-collapse:collapse}
+#messagelist thead tr td,#messagelist tbody tr td{height:18px}
+#messagelist tbody tr.unroot td.subject{text-decoration:underline}
+#messageframe{width:expression((parseInt(this.parentNode.offsetWidth)-180)+px);overflow:hidden}
+#countcontrols{width:24em;padding-right:10px}
+body.iframe{width:expression((parseInt(document.documentElement.clientWidth))+px)}
+div.message-part pre,div.message-htmlpart pre,div.message-part div.pre{word-wrap:break-word}
+#contacts-table{width:expression(document.getElementById('addresslist').clientWidth)}
+#contacts-box,#prefs-box{width:expression((parseInt(this.parentNode.offsetWidth)-555)+px)}
+#rcmdraglayer{filter:alpha(opacity=82);padding-left:20px}
+div.draglayercopy{background:url(images/messageactions.png) 0 -125px no-repeat #fff;border-color:#0c0}
+html.ie8 .draglayercopy:before{content:"";display:none}
+ul.toolbarmenu{margin:0 0 -4px}
+.popupmenu ul li,ul.toolbarmenu li{min-width:auto}
+.popupmenu ul li a,ul.toolbarmenu li a{min-height:auto}
+#console{filter:alpha(opacity=80)}
+table.records-table thead tr td{height:19px}
+#listmenu fieldset{margin:0 4px;padding:.8em}
+#listcontrols input{margin-top:2px}
+#directorylistbox div{min-height:0}
+#searchfilter{margin-top:4px}
+.pagenav a.buttonPas,#listcontrols a.buttonPas{filter:alpha(opacity=35)}

@@ -1,0 +1,221 @@
+#messagetoolbar{position:absolute;right:10px;height:35px;min-width:650px;white-space:nowrap;top:20px;left:10px;z-index:1001}
+#messagetoolbar a{display:block;float:left;padding-right:10px}
+#messagetoolbar a.button,#messagetoolbar a.buttonPas{display:block;float:left;width:32px;height:32px;overflow:hidden;background:url(images/mail_toolbar.png) 0 0 no-repeat transparent;opacity:0.99;margin:0 5px;padding:0}
+#messagetoolbar a.checkmailSel{background-position:0 -32px}
+#messagetoolbar a.back{background-position:-32px 0}
+#messagetoolbar a.backSel{background-position:-32px -32px}
+#messagetoolbar a.compose{background-position:-64px 0}
+#messagetoolbar a.composeSel{background-position:-64px -32px}
+#messagetoolbar a.reply{background-position:-96px 0}
+#messagetoolbar a.replySel{background-position:-96px -32px}
+#messagetoolbar a.replyAll{background-position:-128px 0}
+#messagetoolbar a.replyAllSel{background-position:-128px -32px}
+#messagetoolbar a.forward{background-position:-160px 0}
+#messagetoolbar a.forwardSel{background-position:-160px -32px}
+#messagetoolbar a.delete{background-position:-194px 0}
+#messagetoolbar a.deleteSel{background-position:-192px -32px}
+#messagetoolbar a.markmessage{background-position:-256px 0}
+#messagetoolbar a.messagemenu{background-position:-288px 0}
+#messagetoolbar a.spellcheck{background-position:-384px 0}
+#messagetoolbar a.spellcheckSel{background-position:-384px -32px}
+#messagetoolbar a.attach{background-position:-352px 0}
+#messagetoolbar a.attachSel{background-position:-352px -32px}
+#messagetoolbar a.insertsig{background-position:-448px 0}
+#messagetoolbar a.insertsigSel{background-position:-448px -32px}
+#messagetoolbar a.savedraft{background-position:-322px 0}
+#messagetoolbar a.savedraftSel{background-position:-322px -32px}
+#messagetoolbar a.send{background-position:-416px 0}
+#messagetoolbar a.sendSel{background-position:-416px -32px}
+#messagetoolbar select.mboxlist{position:relative;top:6px;margin:0 8px}
+#messagetoolbar select.mboxlist option{padding-left:15px}
+#messagetoolbar select.mboxlist option[value=0]{padding-left:2px}
+#searchmenu{width:160px}
+#searchmenu ul.toolbarmenu{margin:0}
+#searchmenu ul.toolbarmenu li{margin:1px 4px}
+#messagemenu li a.active:hover,#markmessagemenu li a.active:hover{color:#fff;background-color:#4b4b4b}
+#messagemenu li a{background:url(images/messageactions.png) no-repeat 7px 0;background-position:7px 20px}
+#messagemenu li a.printlink{background-position:7px 1px}
+#messagemenu li a.downloadlink{background-position:7px -17px}
+#messagemenu li a.sourcelink{background-position:7px -35px}
+#messagemenu li a.openlink{background-position:7px -53px}
+#messagemenu li a.editlink{background-position:7px -71px}
+#markmessagemenu li a{background:url(images/messageicons.png) no-repeat}
+#markmessagemenu li a.readlink{background-position:7px -51px}
+#markmessagemenu li a.unreadlink{background-position:7px -119px}
+#markmessagemenu li a.flaggedlink{background-position:7px -153px}
+#markmessagemenu li a.unflaggedlink{background-position:7px -136px}
+#searchfilter{white-space:nowrap;position:absolute;right:190px;vertical-align:middle;top:-3px}
+#searchfilter label{font-size:11px}
+#mailleftcontainer{position:absolute;top:0;left:0;bottom:0;width:195px}
+#mailrightcontainer{position:absolute;top:0;left:170px;bottom:0;right:0;min-width:400px}
+#mailrightcontent{position:absolute;top:0;left:0;right:0;bottom:0}
+#messagepartcontainer{position:absolute;top:80px;left:20px;right:20px;bottom:20px}
+#mailcontframe{position:absolute;width:100%;bottom:25px;border:1px solid #999;background-color:#F9F9F9;overflow:hidden;top:40px}
+#mailpreviewframe{position:absolute;right:0;bottom:25px;border:1px solid #999;background-color:#F9F9F9;top:40px}
+#messagecontframe{position:absolute;top:0;left:0;right:0;bottom:0;width:100%;height:100%}
+#messagepartframe{width:100%;height:100%;border:1px solid #999;background-color:#F9F9F9}
+#partheader{position:absolute;top:20px;left:20px;right:20px;height:40px}
+#partheader table td{padding-left:2px;padding-right:4px;vertical-align:middle;font-size:11px}
+#partheader table td.title{color:#666;font-weight:700}
+#mailboxlist-container{position:absolute;top:40px;left:0;width:100%;bottom:0;border:1px solid #999;background-color:#FFF;overflow:hidden}
+#mailboxlist{position:relative;height:auto;list-style-image:none;list-style-type:none;overflow:hidden;white-space:nowrap;background-color:#FFF;margin:0;padding:0}
+#mailboxlist li{display:block;position:relative;font-size:11px;background:url(images/icons/folders.png) 5px 0 no-repeat}
+#mailboxlist li ul li:last-child{border-bottom:none}
+#mailboxlist li div{position:absolute;left:8px!important;top:1px;width:14px;height:16px}
+#mailboxlist li div.collapsed{background:url(images/icons/collapsed.png) bottom right no-repeat}
+#mailboxlist li div.expanded{background:url(images/icons/expanded.png) bottom right no-repeat}
+#mailboxlist li.inbox{background-position:5px -18px}
+#mailboxlist li.drafts{background-position:5px -37px}
+#mailboxlist li.sent{background-position:5px -54px}
+#mailboxlist li.junk{background-position:5px -73px}
+#mailboxlist li.trash{background-position:5px -91px}
+#mailboxlist li a{cursor:default;display:block;position:relative;padding-left:25px;padding-top:2px;padding-bottom:2px;text-decoration:none}
+#mailboxlist li.selected,#mailboxlist li.droptarget li.selected{background-color:#4b4b4b;background:url(images/fuzzgray.gif)}
+#mailboxlist li.selected > a,#mailboxlist li.droptarget li.selected a{color:#FFF;font-weight:700}
+#mailboxlist li.droptarget{color:#FFF;background-color:#ccc}
+#mailboxlist ul{list-style:none;background-position:25px 1px;background-color:#FFF;color:blue;font-weight:400;margin:0;padding:0 0 0 15px}
+#listcontrols{position:relative;white-space:nowrap;left:4px;line-height:22px;width:auto;min-width:300px}
+#listcontrols a,#listcontrols span{display:block;float:left;font-size:11px}
+#listcontrols input{margin-top:6px}
+#listcontrols a.button,#listcontrols a.buttonPas{display:block;float:left;width:15px;height:15px;margin-top:4px;margin-right:2px;overflow:hidden;background:url(images/mail_footer.png) 0 0 no-repeat transparent;opacity:0.99;padding:0}
+#listcontrols a.allsel{background-position:-30px -15px}
+#listcontrols a.page{background-position:-135px 0}
+#listcontrols a.pagesel{background-position:-135px -15px}
+#listcontrols a.unread{background-position:-45px 0}
+#listcontrols a.unreadsel{background-position:-45px -15px}
+#listcontrols a.invert{background-position:-60px 0}
+#listcontrols a.invertsel{background-position:-60px -15px}
+#listcontrols a.none{background-position:-75px 0}
+#listcontrols a.nonesel{background-position:-75px -15px}
+#listcontrols a.expand-all{background-position:-90px 0}
+#listcontrols a.expand-allsel{background-position:-90px -15px}
+#listcontrols a.collapse-all{background-position:-105px 0}
+#listcontrols a.collapse-allsel{background-position:-105px -15px}
+#listcontrols a.expand-unread{background-position:-120px 0}
+#listcontrols a.expand-unreadsel{background-position:-120px -15px}
+#countcontrols{position:absolute;top:4px;right:4px;min-width:25em;white-space:nowrap;font-size:11px}
+#countcontrols a.button,#countcontrols a.buttonPas{float:right}
+body.messagelist{background-color:#F9F9F9;margin:0}
+#messagelist{width:100%;display:table;table-layout:fixed}
+#messagelist thead tr td{height:20px;vertical-align:middle;border-bottom:1px solid #999;color:#4b4b4b;background:url(images/listheader.gif) top left repeat-x #CCC;font-size:11px;font-weight:700;padding:0 4px 0 2px}
+#messagelist thead tr td.sortedASC a{background:url(images/icons/sort.gif) right 0 no-repeat}
+#messagelist thead tr td.sortedDESC a{background:url(images/icons/sort.gif) right -14px no-repeat}
+#messagelist thead tr td a{display:block;width:auto!important;color:#4b4b4b;text-decoration:none}
+#messagelist thead tr td.size{text-align:left}
+#messagelist thead tr td.subject{padding-left:18px;width:60%;word-wrap:break-word}
+#messagelist tbody tr td{height:40px!important;padding-left:15px;font-size:11px;vertical-align:top;border-bottom:1px solid #EBEBEB;cursor:default}
+#messagelist tbody tr td a{color:#4b4b4b;text-decoration:none;cursor:inherit}
+#messagelist td span,#messagelist td img{vertical-align:middle;display:inline-block}
+#messagelist tr td.flag span,#messagelist tr td.status span,#messagelist tr td.attachment span{width:15px}
+#messagelist tr td div.collapsed,#messagelist tr td div.expanded,#messagelist tr td.threads div.listmenu,#messagelist tr td.attachment span.attachment,#messagelist tr td.attachment span.report,#messagelist tr td.flag span.flagged,#messagelist tr td.flag span.unflagged:hover,#messagelist tr td.status span.status,#messagelist tr td.status span.msgicon,#messagelist tr td.status span.deleted,#messagelist tr td.status span.unread,#messagelist tr td.status span.unreadchildren,#messagelist tr td.subject span.msgicon,#messagelist tr td.subject span.deleted,#messagelist tr td.subject span.unread,#messagelist tr td.subject span.replied,#messagelist tr td.subject span.forwarded,#messagelist tr td.subject span.unreadchildren{vertical-align:middle;height:17px;width:15px;background:url(images/messageicons.png) center no-repeat}
+#messagelist tr td.attachment span.attachment{background-position:0 -170px}
+#messagelist tr td.attachment span.report{background-position:0 -255px}
+#messagelist tr td.flag span.flagged{background-position:0 -153px}
+#messagelist tr td.flag span.unflagged:hover{background-position:0 -136px}
+#messagelist tr td.subject span.msgicon,#messagelist tr td.subject span.unreadchildren{background-position:0 -51px;margin-left:-15px}
+#messagelist tr td.subject span.replied{background-position:0 -85px}
+#messagelist tr td.subject span.forwarded{background-position:0 -68px}
+#messagelist tr td.subject span.replied.forwarded{background-position:0 -102px}
+#messagelist tr td.status span.msgicon,#messagelist tr td.status span.unreadchildren{background-position:0 17px}
+#messagelist tr td.status span.msgicon:hover{background-position:0 -272px}
+#messagelist tr td.status span.deleted,#messagelist tr td.subject span.deleted{background-position:0 -187px}
+#messagelist tr td.status span.status,#messagelist tr td.status span.unread,#messagelist tr td.subject span.unread{background-position:0 -119px}
+#messagelist tr td div.collapsed{background-position:0 -221px;cursor:pointer}
+#messagelist tr td div.expanded{background-position:0 -204px;cursor:pointer}
+#messagelist tr td.threads div.listmenu{background-position:0 -238px;cursor:pointer}
+#messagelist thead tr td.subject,#messagelist tbody tr td.subject{width:60%;word-wrap:break-word;padding:5px}
+#messagelist thead tr td.date,#messagelist tbody tr td.date{width:90px;word-wrap:break-word;padding:5px}
+#messagelist thead tr td.subject,#messagelist thead tr td.from,#messagelist thead tr td.to,#messagelist thead tr td.date{padding:0}
+#messagelist tr td.attachment,#messagelist tr td.threads,#messagelist tr td.status,#messagelist tr td.flag{width:17px;padding:0 0 0 2px}
+#messagelist tr td.size{width:60px;text-align:right;padding:0 2px}
+#messagelist tr td.from,#messagelist tr td.to,#messagelist tr td.cc,#messagelist tr td.replyto{width:180px;padding:0 2px}
+#messagelist tr td.date{width:118px;padding:0 2px}
+#messagelist tr.message{background-color:#FFF}
+#messagelist tr.odd{background-color:#F9F9F9}
+#messagelist tr.unread{color:#4b4b4b;font-weight:700}
+#messagelist tr.flagged td,#messagelist tr.flagged td a{color:#d25220}
+#messagelist tr.selected td{color:#fff;background-color:#900;background:url(images/fuzzgray.gif)}
+#messagelist tr.unfocused td{color:#fff;background-color:#ccc;background:url(images/fuzzgray.gif)}
+#messagelist tr.deleted td,#messagelist tr.deleted td a{color:#CCC}
+#listmenu legend{color:#999}
+#listmenu fieldset{border:1px solid #999;float:left;margin:0 5px}
+#listmenu div{text-align:center;clear:both;padding:8px 0 3px}
+td span.branch div{float:left;height:16px}
+td span.branch div.tree{height:17px;width:15px;background:url(images/tree.gif) 0 0 no-repeat}
+td span.branch div.l3{background-position:-15px 0}
+#messageframe{position:absolute;top:40px;left:180px;right:0;bottom:0;border:1px solid #999;background-color:#FFF;overflow:auto;z-index:1}
+div.messageheaderbox{border:1px solid #ccc;margin:-14px 8px 0}
+table.headers-table{width:100%;background-color:#EBEBEB}
+#messagebody #full-headers,#messagebody table.headers-table{width:auto;background-color:#F4F4F4;margin:6px 8px}
+table.headers-table tr td{font-size:11px;border-bottom:1px solid #FFF}
+table.headers-table tr td.header-title{width:1%;color:#666;font-weight:700;text-align:right;white-space:nowrap;padding:0 4px 0 8px}
+table.headers-table tr td.header{width:99%}
+#attachment-list{min-height:16px;list-style-image:none;list-style-type:none;background:url(images/icons/attachment.png) 4px 2px no-repeat #DFDFDF;margin:0;padding:0 4px 0 8px}
+#messageframe #attachment-list{border-bottom:1px solid #ccc}
+.messageheaderbox #attachment-list{border-top:1px solid #ccc}
+#attachment-list:after{content:".";display:block;height:0;font-size:0;clear:both;visibility:hidden}
+#attachment-list li{float:left;height:18px;font-size:11px;white-space:nowrap;padding:2px 0 0 15px}
+#attachment-list li a{text-decoration:none}
+#messagebody{position:relative;padding-bottom:10px;background-color:#FFF}
+div.message-part,div.message-htmlpart{border-top:1px solid #ccc;padding:10px 8px}
+#messagebody div:first-child{border-top:0}
+div.message-part a,div.message-htmlpart a{color:#4b4b4b0CC}
+div.message-part pre,div.message-htmlpart pre,div.message-part div.pre{font-family:monospace;white-space:pre-wrap!important;margin:0;padding:0}
+div.message-part blockquote{color:blue;border-left:2px solid blue;border-right:2px solid blue;background-color:#F6F6F6;margin:2px 0;padding:1px 8px 1px 10px}
+div.message-part blockquote blockquote{color:green;border-left:2px solid green;border-right:2px solid green}
+div.message-part blockquote blockquote blockquote{color:#900;border-left:2px solid #b00;border-right:2px solid #b00}
+#remote-objects-message{display:none;min-height:20px;min-width:550px;margin:8px;padding:10px 10px 6px 46px}
+#remote-objects-message a{color:#666;padding-left:10px}
+#remote-objects-message a:hover{color:#333}
+#messageviewlink{position:absolute;top:8px;right:10px;width:15px;height:15px;border:0}
+#full-headers{color:#666;text-align:center;border-bottom:1px solid #ccc;background-color:#EBEBEB;padding:2px 6px}
+.messageheaderbox #full-headers{border-bottom:0}
+div.more-headers{cursor:pointer;height:8px;border-bottom:0}
+div.show-headers{background:url(images/icons/down_small.gif) no-repeat center}
+div.hide-headers{background:url(images/icons/up_small.gif) no-repeat center}
+#headers-source{height:145px;background:#FFF;overflow:auto;font-size:11px;border:1px solid #999;display:none;text-align:left;color:#333;margin:0 0 2px;padding:.5em}
+#compose-container{position:absolute;top:40px;left:185px;right:0;bottom:0;margin:0}
+#compose-div{position:absolute;top:85px;bottom:0;width:100%;margin:0}
+#compose-div .boxfooter{height:22px;background:none;border-top:0}
+#compose-div .boxlistcontent{bottom:23px}
+#compose-body{position:absolute;left:0;right:0;top:0;bottom:0;font-size:9pt;font-family:monospace;border:1px solid #999;resize:none;margin:0}
+#compose-headers{width:100%}
+#compose-headers td.editfield{padding-right:8px;width:95%}
+#compose-headers td.top{vertical-align:top}
+#compose-headers td.title,#compose-subject td.title{width:80px!important;font-size:11px;font-weight:700;padding-right:10px;white-space:nowrap;color:#666}
+#compose-headers td textarea,#compose-headers td input{resize:none;width:100%;border:1px solid #999}
+#compose-headers td textarea{height:32px}
+input.from_address{width:80%!important}
+#compose-cc,#compose-bcc,#compose-replyto,#compose-followupto{display:none}
+.formlinks a,.formlinks a:visited{font-size:11px;text-decoration:none;color:#999}
+#compose-editorfooter{position:absolute;right:0;bottom:0;text-align:right}
+#compose-editorfooter label{font-size:11px;font-weight:700;color:#666}
+#compose-buttons{position:absolute;left:0;bottom:0;width:auto}
+#compose-attachments{position:absolute;top:40px;left:0;bottom:0;width:175px;border:1px solid #999;background-color:#FFF}
+#compose-attachments ul{background-color:#FFF;list-style-image:none;list-style-type:none;margin:0;padding:0}
+#compose-attachments ul li{height:18px;font-size:11px;padding-left:2px;padding-top:2px;padding-right:4px;border-bottom:1px solid #EBEBEB;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;-o-text-overflow:ellipsis}
+#compose-attachments ul li img{padding-right:2px;vertical-align:middle}
+#attachment-form div{padding:2px}
+#attachment-form div.buttons{margin-top:4px}
+#quota{position:absolute;top:3px;right:8px;width:100px}
+#quotaimg{position:absolute;top:3px;right:6px;z-index:101}
+#quicksearchbar{top:25px;right:20px;width:182px;height:20px;text-align:right;background:url(images/searchfield.gif) top left no-repeat;z-index:1001}
+#messagelistcontainer{min-width:400px}
+.iframe{min-width:540px}
+#messagelist tbody td img.msgicon{margin:0 2px 0 -18px}
+#messagelist thead tr td.from,#messagelist thead tr td.to{width:40%;word-wrap:break-word;overflow:hidden}
+#messagelist thead tr td.date{width:80px;word-wrap:break-word}
+#messagelist tbody tr td.subject{width:60%;word-wrap:break-word;padding:5px 5px 5px 15px}
+#messagelist tbody tr td.date{width:80px;word-wrap:break-word;padding:5px}
+#messagetoolbar a.buttonPas,#listcontrols a.buttonPas{opacity:0.35}
+#mailboxlist li div.collapsed,#mailboxlist li div.expanded,#messagelist tbody tr td.flag,#messagelist tbody tr td.status,#messagelist tbody tr td.subject span.status{cursor:pointer}
+#mailboxlist li.unread,table.headers-table tr td.subject{font-weight:700}
+#mailboxlist li.virtual > a,div.message-part span.sig{color:#666}
+#listcontrols a.all,td span.branch div.l2{background-position:-30px 0}
+#messagelist thead tr td.sortedASC,#messagelist thead tr td.sortedDESC,td span.branch div.l1{background-position:0 0}
+#messagelist thead tr td.from,#messagelist thead tr td.to,#messagelist tbody tr td.from,#messagelist tbody tr td.to,#messagelist tbody tr td.from,#messagelist tbody tr td.to{width:40%;word-wrap:break-word;overflow:hidden;padding:5px}
+#messagelist tbody tr.unroot td.subject a,#attachment-list li a:hover{text-decoration:underline}
+#messagelist tr.selected td a,#messagelist tr.unfocused td a{color:#fff}
+#listmenu,#attachment-form{padding:6px}
+body.iframe div.message-htmlpart,div.message-htmlpart div.rcmBody{margin:8px}
+#mailrightcontent .boxfooter,#mailrightcontainer .boxfooter{border:1px solid #999}

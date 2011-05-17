@@ -1,0 +1,33 @@
+#abooktoolbar{height:35px;left:15px;position:absolute;top:20px;z-index:1001}
+#abooktoolbar a{padding-right:10px}
+#abooktoolbar a.button,#abooktoolbar a.buttonpas,#abooktoolbar span.separator{background:url(images/abook_toolbar.png) 0 0 no-repeat transparent;display:block;float:left;height:32px;margin-right:10px;opacity:0.99;overflow:hidden;width:32px;padding:0}
+#abooktoolbar a.buttonpas{opacity:0.35}
+#abooktoolbar a.addcontactsel{background-position:0 -32px}
+#abooktoolbar a.compose{background-position:-32px 0}
+#abooktoolbar a.composesel{background-position:-32px -32px}
+#abooktoolbar a.delete{background-position:-64px 0}
+#abooktoolbar a.deletesel{background-position:-64px -32px}
+#abooktoolbar a.import{background-position:-96px 0}
+#abooktoolbar a.importsel{background-position:-96px -32px}
+#abooktoolbar a.export{background-position:-128px 0}
+#abooktoolbar a.exportsel{background-position:-128px -32px}
+#abooktoolbar span.separator{background-position:-162px 0;width:5px}
+#abookcountbar{margin-left:4px;margin-top:4px}
+#addressscreen{bottom:5px;left:225px;position:absolute;right:5px;top:56px}
+#directorylistbox{background-color:#FFF;border:1px solid #999;bottom:5px;left:5px;overflow:hidden;position:absolute;top:56px;width:210px}
+#directorylistbox input{width:90%;margin:2px}
+#addresslist{background-color:#FFF;border:1px solid #999;bottom:0;left:0;overflow:hidden;position:absolute;top:0;width:280px}
+#contactgroupslist{border-top:1px solid #999}
+#directorylist{background-color:#FFF;list-style:none;margin:0;padding:0}
+#directorylist li{background:url(images/icons/folders.png) 5px -108px no-repeat;border-bottom:1px solid #EBEBEB;display:block;font-size:11px;white-space:nowrap}
+#directorylist li a{cursor:default;display:block;padding-bottom:2px;padding-left:25px;padding-top:2px;text-decoration:none;white-space:nowrap}
+#directorylist li.contactgroup{background-position:20px -144px;padding-left:15px}
+#directorylist li.selected{background-color:#4b4b4b;border-bottom:1px solid #898989}
+#directorylist li.selected a{color:#FFF;font-weight:700}
+#directorylist li.droptarget{background-color:#FFFFA6}
+#contacts-table{table-layout:fixed;width:100%}
+#contacts-table tbody td{-o-text-overflow:ellipsis;cursor:default;text-overflow:ellipsis}
+#contacts-box{border:1px solid #999;bottom:0;left:290px;overflow:hidden;position:absolute;right:0;top:0}
+body.iframe,#contact-frame{background-color:#F2F2F2;border:none}
+#contact-details table td.title{font-weight:700;text-align:right}
+#quicksearchbar{background:url(images/searchfield.gif) top left no-repeat;height:20px;right:20px;text-align:right;top:25px;width:182px}
